@@ -13,13 +13,16 @@ import video from "../../images/video.png";
 import onetwothree from "../../images/123.png";
 import solution from "../../images/Solutions.png";
 import group1 from "../../images/bgblock4.png";
-import slash from "../../images/slash.png";
+// import slash from "../../images/slash.png";
 import privacy_sln from "../../images/privacy-sln.png";
 import feedback_ph2 from "../../images/feedback-stars.png";
 import group2 from "../../images/group1.png";
+
+
 // components
 import { ServiceBoard } from "../../components/ServiceBoard";
 import { DiscoverComp } from "../../components/DicsoverComponent";
+
 export const Home = () => {
   return (
     <div>
@@ -173,7 +176,7 @@ export const Home = () => {
       {/* Customer Section */}
 
       <section className="feedback-section">
-        <div className="feedback-container">
+        <div className="feedback-container container">
           <div className="feedback-01">
             <h3 className="feedback-h3">Your Protection Is Our Success</h3>
             <h2 className="feedback-h2">
@@ -186,7 +189,7 @@ export const Home = () => {
             customer satisfaction.
           </p>
         </div>
-        <div>
+        <div className='container'>
           <img className="feedback-ph1" src={privacy_sln} alt="" />
         </div>
         <div className="feedback-ph2">
